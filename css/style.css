@@ -1,0 +1,17 @@
+.errorBox {
+    border: 2px solid red;
+}
+
+.errorMsg{
+    color: rgb(253, 13, 13);
+    display: none;
+} 
+
+.showError{
+    display: block;
+}
+
+.navbar-brand > img{
+    width: 50px;
+    border-radius: 45%;
+}
