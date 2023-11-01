@@ -1,17 +1,27 @@
 .errorBox {
     border: 2px solid red;
 }
-
-.errorMsg{
-    color: rgb(253, 13, 13);
+.errorMsg {
+    color: red;
     display: none;
-} 
-
-.showError{
+}
+.showError {
     display: block;
 }
-
-.navbar-brand > img{
+.navbar-brand > img {
     width: 50px;
     border-radius: 45%;
+}
+.signedOut {
+    display: none;
+}
+.fadable{
+    opacity: 1;
+    transition: .4s;
+}
+.fade {
+    opacity: 0;
+}
+.hidden{
+    display: none;
 }
